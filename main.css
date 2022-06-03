@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #ffffc2;
+    background-color: #19a6e9;
     font-family: 'Lato', sans-serif;
 }
 
@@ -156,12 +156,13 @@ nav > ul {
     height: 30px;
     margin: 15px 0;
     border: 0;
-    background-color: purple;
+    background-color: black;
     color: white;
 }
 
 #hero input[type='submit']:hover {
-    background-color: orange;
+    background-color: white;
+    color: black;
     transition: background-color 1s;
 }
 
@@ -181,7 +182,7 @@ nav > ul {
     justify-content: center;
     height: 125px;
     width: 20vw;
-    color: darkorange;
+    color: black;
 }
 
 @media (max-width: 550px) {
@@ -268,13 +269,14 @@ nav > ul {
 .product > button {
     border: 0;
     margin: 15px 0;
-    background-color: purple;
+    background-color: black;
     color: white;
     font-weight: 400;
 }
 
 .product > button:hover {
-    background-color: orange;
+    background-color: white;
+    color: black;
     transition: background-color 1s;
 }
 
